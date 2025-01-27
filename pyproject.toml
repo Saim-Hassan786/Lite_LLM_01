@@ -1,0 +1,21 @@
+[project]
+name = "lite-llm-01"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Saim-Hassan786", email = "saimaiengineer@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "litellm>=1.59.8",
+]
+
+[project.scripts]
+lite-llm-01 = "lite_llm_01:main"
+gemini1 = "lite_llm_01.lite_llm:gemini_15"
+gemini2 = "lite_llm_01.lite_llm:gemini_20"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
