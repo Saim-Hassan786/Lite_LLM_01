@@ -1,6 +1,6 @@
 from litellm import completion
 import os
-os.environ["GEMINI_API_KEY"] = "AIzaSyBQFvTd1PBHg0i9s7UjNDCU9us_TK5IwMw"
+os.environ["GEMINI_API_KEY"] = PLACE YOUR API KEY HERE
 
 def gemini_15():
     messages = [{"role":"user","content":"Tell Me About Yourself in 2 lines"}]
